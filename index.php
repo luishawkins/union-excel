@@ -152,7 +152,7 @@
             $(table).find('tbody button.btn-danger.new').on('click', function () {
             var sw = true;
             $(this).parents('tr').find('input').each(function () { if (this.value) sw = false });
-                if (sw || confirm('Estás putas seguro de eliminar esa verga')) {
+                if (sw || confirm('seguro de eliminar')) {
                     _deletes.push(this.dataset.id);
                     deletes.value = _deletes.join(',')
                     $(this).parents('tr').remove();
